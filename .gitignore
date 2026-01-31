@@ -1,0 +1,40 @@
+# Input media (photos/videos of real RVs - do not commit)
+**/inputs/media/images/*
+**/inputs/media/videos/*
+!**/.gitkeep
+
+# Documents that may contain PII (VIN, titles, service records)
+**/inputs/docs/listing/*
+**/inputs/docs/service_records/*
+**/inputs/docs/title_vin/*
+!**/.gitkeep
+
+# Working files (extracted keyframes, transcripts, metadata)
+**/work/keyframes/*
+**/work/transcripts/*
+**/work/metadata/*
+!**/.gitkeep
+
+# Analysis outputs (may contain real vehicle data)
+**/analysis/media-notes/*
+**/analysis/findings/*
+**/analysis/costing/*
+!**/.gitkeep
+
+# Output documents
+**/outputs/*
+!**/.gitkeep
+
+# Archives (may contain real evaluation data)
+**/archives/*.zip
+**/archives/*.md
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+nul
+
+# IDE
+.vscode/
+.idea/

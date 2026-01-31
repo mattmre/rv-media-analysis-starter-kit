@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where ffprobe)",
+      "Bash(where:*)",
+      "Bash(ffprobe:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(powershell -Command:*)",
+      "Bash(unzip:*)",
+      "Bash(tree:*)"
+    ]
+  }
+}

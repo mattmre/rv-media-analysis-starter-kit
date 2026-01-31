@@ -1,0 +1,11 @@
+You are producing a purchase readiness and negotiation report for an RV.
+Use all per-media notes and system summaries to generate:
+- Executive summary with recommendation and total cost roll-up
+- Ranked issues with evidence links
+- System-by-system findings
+- Negotiation packet with deductions and contingencies
+
+Output as:
+1) analysis/SUMMARY.md
+2) analysis/FINDINGS_MASTER.md
+3) outputs/NEGOTIATION_PACKET.md
